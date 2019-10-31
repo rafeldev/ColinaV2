@@ -1,0 +1,71 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+.logo-colina {
+    width: 900px;
+    height: 450px;
+
+}
+
+
+.colorbg, .color-nav {
+    background: #000000; 
+background: -webkit-linear-gradient(to right, #434343, #000000); 
+background: linear-gradient(to right, #434343, #000000); 
+
+}
+/* .color-nav {
+    background-color: #434343;
+} */
+
+#cris, #pedro{
+    width: 250px;
+    height: 250px;
+}
+#founders{
+    color: #9e9d9d;
+    font-weight: bold;
+}
+
+#foto1{
+    /* width: 350px;
+    height: 250px; */
+    background-size: auto;
+}
+
+#target1{
+    width: 370px;
+    padding: ;
+
+}
+
+/* .diagonal svg{
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-color: #fff;
+    background: transparent;
+    margin-top: -30px;
+} */
+
+#formulario{
+    top:5px;
+    right: 10px;
+}
+
+#form{
+    background-color:#434343;
+}
+
+/* #Nombre{
+    background-color: #AAAAAA;
+} */
+
+#icons{
+    font-size: 50px;
+    
+}  
