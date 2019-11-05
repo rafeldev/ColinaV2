@@ -1,0 +1,4 @@
+-Responsivear toda la landing page
+-Hacer 3 index.html(portafolio)
+-Optimizar las imagenes de la pagina para un mejor flujo
+-Agregar los links correctamente para que redireccionen al lugar correcto

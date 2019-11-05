@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Colina Tailw</title>
+    <title>Colina</title>
     <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="./css/app.css">
     <script src="https://kit.fontawesome.com/c5789b72ea.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <nav class="">
+    <nav class=" ">
         <ul class=" font-semibold color-nav text-base flex justify-end p-3 bg-gray-500">
-            <div class="container-nav flex ">
+            <div id="nav" class="container-nav flex sm:text-sm md:text-base lg:text-base  ">
                 <li class="mr-6">
                     <a class="text-white py-2 px-4 border-none border-white hover:border-red-500 rounded hover:bg-red-600 "
                         href="#">¿Quienes Somos?</a>
@@ -37,13 +37,13 @@
     <div class="colorbg">
         <div class=" pt-12 bg-cover h-auto bg-fixed">
 
-            <div class="container-logo flex justify-center">
+            <div id="logo" class="container-logo  flex justify-center">
                 <img class="logo-colina" src="img/Colina_RGB.png" alt="img/colina-RGB.jpg">
             </div>
             <div class="pt-10 container-button flex justify-center">
                 <button
                     class=" bg-transparent flex items-center hover:bg-red-600 text-white font-semibold hover:text-white py-2 px-4 border-none border-white hover:border-transparent rounded">
-                    <a target="_blank" href="https://www.instagram.com/?hl=es-la">Let's Go</a>
+                    <a href="#titulo-quienes">Let's Go</a>
                 </button>
             </div>
         </div>
@@ -51,9 +51,11 @@
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" persevrveAspecRatio="none" fill="white"></svg>
         </div> -->
         <div class="who  py-40">
-            <h1 id="titulo-quienes" class="text-5xl text-white font-sans text-center ">¿Quienes somos?</h1>
-            <p class="text-white font-sans text-3xl text-center pt-10 leading-none ">Como <strong
-                    class="text-red-600 font-semibold ">Colina
+            <h1 id="titulo-quienes" class="text-5xl text-white font-sans text-center ">
+                ¿Quienes somos?
+            </h1>
+            <p class="text-white font-sans sm:text-2xl md:text-3xl lg:text-3xl text-center pt-10 leading-none ">Como
+                <strong class="text-red-600 font-semibold ">Colina
                     Studios</strong> somos
                 redactores <br> de
                 diferentes
@@ -65,18 +67,18 @@
             <div class="fundadores flex justify-center ">
                 <div class="founders flex justify-center ">
                     <div id="cris" class="founders pt-10 text-center">
-                        <img class="p-2 pb-3" src="img/cris.png" alt="cris">
+                        <img class="p-2 pb-3" src="img/cris@2x.png" alt="cris">
                         <a target='_blank' href="https://www.instagram.com/crisvasquez/?hl=es-la"
-                            class=" text-white font-sans text-xl py-2 px-3 border-none hover:border-red-500 rounded hover:bg-red-600">
+                            class="  sm:text-lg sm:font-semibold md:text-xl font-semibold lg:text-xl lg:font-semibold text-white font-sans py-2 px-3 border-none hover:border-red-500 rounded hover:bg-red-600">
                             @crisvasquez</a>
                         <h2 id="founders" class="pt-1">FOUNDERS</h2>
                     </div>
                 </div>
                 <div class="founders flex justify-center ">
                     <div id="pedro" class="founders text-center pt-10">
-                        <img class="p-2 pb-3" src="img/pedro.png" alt="cris">
+                        <img class="p-2 pb-3" src="img/pedro@2x.png" alt="cris">
                         <a target='_blank' href="https://www.instagram.com/pdromoreno7/?hl=es-la"
-                            class=" text-white font-sans text-xl py-2 px-3 border-none  hover:border-red-500 rounded hover:bg-red-600">
+                            class="  sm:text-lg sm:font-semibold md:text-xl font-semibold lg:text-xl lg:font-semibold text-white font-sans py-2 px-3 border-none  hover:border-red-500 rounded hover:bg-red-600">
                             @pdromoreno7</a>
                         <h2 id="founders" class="pt-1">FOUNDERS</h2>
                     </div>
@@ -89,12 +91,12 @@
 
 
         <div id="titulo-portafolio" class="titulo pt-20 pb-20 ">
-            <h1 class="text-5xl text-white font-sans text-center font-sans"> Portafolio</h1>
+            <h1 id="title-portafolio" class="text-5xl text-white font-sans text-center font-sans"> Portafolio</h1>
         </div>
         <div class="contenedor pt-20  ">
-            <div class="container mx-auto ">
-                <div class="block  flex justify-between">
-                    <div id="target1" class=" flex flex-col  bg-white w-2/5 rounded-lg   shadow-2xl over-hidden">
+            <div id="rptargets" class="container mx-auto ">
+                <div id="targets" class="block  flex justify-between">
+                    <div id="target1" class=" flex flex-col  bg-white w-2/5 rounded-lg mb-10  shadow-2xl over-hidden">
                         <div class="w-full">
                             <img id="foto1" class=" w-full" src="img/manga.jpg" alt="foto #1">
                         </div>
@@ -113,7 +115,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="target1" class="flex flex-col bg-white w-2/5 rounded-lg   shadow-2xl over-hidden">
+                    <div id="target1" class="flex flex-col bg-white w-2/5 rounded-lg mb-10  shadow-2xl over-hidden">
                         <div class="w-full">
                             <img id="foto1" class=" w-full" src="img/manga.jpg" alt="foto #1">
                         </div>
@@ -132,7 +134,7 @@
                             </div>
                         </div>
                     </div>
-                    <div id="target1" class="flex flex-col bg-white w-2/5 rounded-lg shadow-2xl over-hidden">
+                    <div id="target1" class="flex flex-col bg-white w-2/5 rounded-lg mb-10 shadow-2xl over-hidden">
                         <div class="w-full">
                             <img id="foto1" class=" w-full" src="img/manga.jpg" alt="foto #1">
                         </div>
