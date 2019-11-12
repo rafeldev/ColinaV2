@@ -5,6 +5,8 @@
 @tailwind utilities;
 
 
+/* INGRESAR EL MENU DENTRO DE UN MENU HAMBURGUESA PARA LAS RESOLUCIONES PEQUEÑAS */
+
 @media screen and (min-width: 1280px){
     #nav{
         font-size: 1rem;
@@ -17,6 +19,17 @@
 
 }
 
+@media screen and (min-width: 375px){
+    .logo-colina {
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+        
+        width: 300px;
+        height: 150px;
+    }
+    
+}
 @media screen and (min-width: 640px){
     .logo-colina {
         /* display: flex;
@@ -60,10 +73,38 @@ background: linear-gradient(to right, #434343, #000000);
     background-color: #434343;
 } */
 /* RESPONSIVE DESIGN DEL TITULO QUIENES SOMOS */
+@media screen and (min-width: 375px){
+
+    #quienes{
+        padding-top: 5rem;
+        padding-bottom: 0rem;
+        
+    
+    }
+    
+}
+@media screen and (min-width: 375px){
+
+    #titulo-quienes, #title-portafolio{
+        font-size: 1.5rem;
+        
+    
+    }
+    
+}
 @media screen and (min-width: 640px){
 
     #titulo-quienes, #title-portafolio{
         font-size: 2rem;
+    
+    }
+    
+}
+@media screen and (min-width: 640px){
+
+    #title-portafolio{
+        margin-top: 100px;
+        margin-bottom: 20px;
     
     }
     
@@ -87,12 +128,21 @@ background: linear-gradient(to right, #434343, #000000);
     width: 250px;
     height: 250px;
 }
+
+
 #founders{
     color: #9e9d9d;
     font-weight: bold;
 }
 
 /* RESPONSIVE DESIGN DE CRIS Y PEDRO */
+@media screen and (min-width: 375px){
+    #cris, #pedro{
+        width: 75%;
+        height: 75%;
+    }
+}
+
 @media screen and (min-width: 640px){
     #cris, #pedro{
         width: 150px;
@@ -107,12 +157,39 @@ background: linear-gradient(to right, #434343, #000000);
     }
 }
 
+@media screen and (min-width: 375px){
+    #founders{
+        font-size: 12px;
+    }
+}
+
 #foto1{
     /* width: 350px;
     height: 250px; */
     background-size: auto;
 }
+
+/* RESPONSIVE DESIGN DE */
+
+
+
+
 /* RESPONSIVE DESIGN DEL CONTENEDOR DE LAS TARJETAS */
+
+@media screen and (min-width: 375px){
+    #target1{
+        width: 20%;
+        
+    }
+}
+
+ @media screen and (min-width: 375px){
+     #targets{
+         flex-direction: column;
+         display: flex;
+         align-items: center;
+     }
+ }
 @media screen and (min-width:640px){
     #targets{
         flex-direction: column;
